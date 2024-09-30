@@ -25,7 +25,8 @@ abstract class TSqlInstruction {
         return $this->entity;
     }
     
-    public function setCriteria($criteria)
+    //Se der erro remover o parametro
+    public function setCriteria()
     {
         $this->criteria = $criteria;
     }
